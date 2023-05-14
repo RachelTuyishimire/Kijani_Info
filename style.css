@@ -1,3 +1,4 @@
+/* About us */
 #logo{
     width: 20%;
     margin-left: 4%;
@@ -78,33 +79,23 @@ footer ul{
    
 
 }
-#touch{
+/* contact us       */
+input{
+    padding: 10px 30px;
+    border-style: none;
+    font-weight: bolder;
+}
+textarea{
+    border-style: none;
+}
+ #touch{
     text-align: center;
     font-size: 40px;
     font-weight: bold;
-}
-#first{
-    margin-right: 1%;
-    color: black;
-    font-weight: bold;
-    
-}
-#last{
-    margin-left: 30%;
-    margin-top: -7.3%;
-    color: black;
-    font-weight: bold;
-}
-#email{
-    margin-bottom: -3%;
-    color: black;
-    font-weight: bold;
-}
-#phone{
-    margin-left: 30%;
-    margin-top: -5%;
-    font-weight: bold;
-}
+    margin-left: 1%;
+} 
+
+
 #message{
     margin-top: 3%;
    
@@ -113,14 +104,24 @@ footer ul{
 
 }
 .submit{
-    margin-left: 17%;
-    border-radius: 10px;
-    background-color: #88c794;
-    color: white;
+
     font-weight: bold;
     font-size: x-large;
-    border: 2px solid #EBFBEE;
+   
     cursor: pointer;
-    width: 150px;
-    margin-top: 3%;
+
+        background-color:#087f5b ;
+        padding: 17px 55px 17px 55px;
+        border-radius: 15px;
+        border-style: none;
+        margin-right: 10%;
+        margin-left: 1%;
+        margin-bottom: 10%;
+        color: #B2F2BB;
+    
+}
+@media query and(max-width:800px){
+    /* contact us */
+
+
 }
